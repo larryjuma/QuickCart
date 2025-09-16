@@ -4,10 +4,10 @@ import { Link } from "react-router-dom";
 
 function Fashion({ addToCart }) {
   const products = [
-      { id: 23, name: "T-Shirt", price: 25, rating: 4, category: "Fashion", image: "/images/t-short.jpg" },
-    { id: 24, name: "Sneakers", price: 80, rating: 5, category: "Fashion", image: "/images/sneakers.jpg" },
-    { id: 25, name: "Jackets", price: 120, rating: 3, category: "Fashion", image: "/images/jacket.jpg" },
-    { id: 26, name: "Jeans", price: 40, rating: 4, category: "Fashion", image: "/images/jeans.jpg" },
+      { id: 23, name: "T-Shirt", price: 25, rating: 4, category: "Fashion", image: "/QuickCart/images/t-short.jpg" },
+    { id: 24, name: "Sneakers", price: 80, rating: 5, category: "Fashion", image: "/QuickCart/images/sneakers.jpg" },
+    { id: 25, name: "Jackets", price: 120, rating: 3, category: "Fashion", image: "/QuickCart/images/jacket.jpg" },
+    { id: 26, name: "Jeans", price: 40, rating: 4, category: "Fashion", image: "/QuickCart/images/jeans.jpg" },
   ];
 
   return (

@@ -7,9 +7,9 @@ function Home({ addToCart }) {
 
   // Featured products data
   const featuredProducts = [
-    { id: 101, name: "Wireless Headphones", price: 59.99, image: "images/headphones.jpg" },
-    { id: 102, name: "Smartphone", price: 499.99, image: "images/smartphone.jpg" },
-    { id: 103, name: "Sports Shoes", price: 89.99, image: "images/sports shoes.jpg" },
+    { id: 101, name: "Wireless Headphones", price: 59.99, image: "/QuickCart/images/headphones.jpg" },
+    { id: 102, name: "Smartphone", price: 499.99, image: "/QuickCart/images/smartphone.jpg" },
+    { id: 103, name: "Sports Shoes", price: 89.99, image: "/QuickCart/images/sports shoes.jpg" },
   ];
 
   const handleAddToCart = (product) => {
@@ -30,7 +30,7 @@ function Home({ addToCart }) {
         </div>
         <div className="hero-img">
 
-          <img src="/public/images/jon-ly-Xn7gvimQrk8-unsplash.jpg" alt="Shopping" />
+          <img src="QuickCart/public/images/jon-ly-Xn7gvimQrk8-unsplash.jpg" alt="Shopping" />
 
         </div>
       </section>
