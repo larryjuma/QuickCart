@@ -8,7 +8,7 @@ function Products({ addToCart }) {
     { id: 1, name: "Washing Machine", price: 350, rating: 4, category: "Appliances", image: "/QuickCart/images/washing-machine.jpg" },
     { id: 2, name: "Refrigerator", price: 500, rating: 5, category: "Appliances", image: "/QuickCart/images/fridge.jpg" },
     { id: 3, name: "Microwave", price: 120, rating: 4, category: "Appliances", image: "/QuickCart/images/microwave.jpg" },
-    { id: 4, name: "Air Conditioner", price: 600, rating: 5, category: "Appliances", image: "/QuickCart/images/air conditioner.jpg" },
+    { id: 4, name: "Air Conditioner", price: 600, rating: 5, category: "Appliances", image: "/QuickCart/images/air-conditioner.jpg" },
     { id: 5, name: "Lyons LST3211W 32 inch HD Frameless Android Smart TV", price: 400, rating: 5, category: "Appliances", image: "/QuickCart/images/tv.jpg" },
     { id: 6, name: "Double Burner Gas Cooker", price: 50, rating: 4, category: "Appliances", image: "/QuickCart/images/burner.jpg" },
 
@@ -19,10 +19,10 @@ function Products({ addToCart }) {
     { id: 10, name: "Toaster", price: 40, rating: 4, category: "Kitchen", image: "/QuickCart/images/toaster.jpg" },
 
     // Health & Beauty
-    { id: 11, name: "Hair Dryer", price: 35, rating: 4, category: "Health & Beauty", image: "/QuickCart/images/hair dryer.jpg" },
-    { id: 12, name: "Skincare Kit", price: 80, rating: 5, category: "Health & Beauty", image: "/QuickCart/images/skin care kit.jpg" },
+    { id: 11, name: "Hair Dryer", price: 35, rating: 4, category: "Health & Beauty", image: "/QuickCart/images/hair-dryer.jpg" },
+    { id: 12, name: "Skincare Kit", price: 80, rating: 5, category: "Health & Beauty", image: "/QuickCart/images/skin-care-kit.jpg" },
     { id: 13, name: "Perfume", price: 60, rating: 3, category: "Health & Beauty", image: "/QuickCart/images/perfume.jpg" },
-    { id: 14, name: "Massage Gun", price: 150, rating: 5, category: "Health & Beauty", image: "/QuickCart/images/massage gun.jpg" },
+    { id: 14, name: "Massage Gun", price: 150, rating: 5, category: "Health & Beauty", image: "/QuickCart/images/massage-gun.jpg" },
 
     // Accessories
     { id: 15, name: "Wrist Watch", price: 150, rating: 5, category: "Accessories", image: "/QuickCart/images/watch.jpg" },
@@ -34,7 +34,7 @@ function Products({ addToCart }) {
     { id: 19, name: "Smartphone", price: 700, rating: 5, category: "Electronics", image: "/QuickCart/images/smartphone.jpg" },
     { id: 20, name: "Laptop", price: 1200, rating: 4, category: "Electronics", image: "/QuickCart/images/laptop.jpg" },
     { id: 21, name: "Headphones", price: 150, rating: 3, category: "Electronics", image: "/QuickCart/images/headphones.jpg" },
-    { id: 22, name: "Smartwatch", price: 250, rating: 5, category: "Electronics", image: "/QuickCart/images/smart watch.jpg" },
+    { id: 22, name: "Smartwatch", price: 250, rating: 5, category: "Electronics", image: "/QuickCart/images/smart-watch.jpg" },
 
     // Fashion
     { id: 23, name: "T-Shirt", price: 25, rating: 4, category: "Fashion", image: "/QuickCart/images/t-short.jpg" },
@@ -51,7 +51,7 @@ function Products({ addToCart }) {
     // Gaming
     { id: 31, name: "PlayStation", price: 500, rating: 5, category: "Gaming", image: "/QuickCart/images/ps.jpg" },
     { id: 32, name: "Xbox", price: 450, rating: 4, category: "Gaming", image: "/QuickCart/images/xbox.jpg" },
-    { id: 33, name: "Gaming Keyboard", price: 60, rating: 3, category: "Gaming", image: "/QuickCart/images/gaming keyboard.jpg" },
+    { id: 33, name: "Gaming Keyboard", price: 60, rating: 3, category: "Gaming", image: "/QuickCart/images/gaming-keyboard.jpg" },
     { id: 34, name: "Gaming Chair", price: 200, rating: 4, category: "Gaming", image: "/QuickCart/images/chair.jpg" },
   ];
 
