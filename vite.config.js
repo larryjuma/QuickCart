@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/QuickCart/', // 👈 must match repo name exactly
+  base: '/QuickCart/', // or '/quickcart/' if repo is lowercase
 })
