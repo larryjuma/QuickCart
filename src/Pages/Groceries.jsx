@@ -3,13 +3,13 @@ import "../styles/category.css";
 import { Link } from "react-router-dom";
 
 function Groceries({ addToCart }) {
-  const products = [
-    { id: 27, name: "Fruits", price: 15, rating: 5, category: "Groceries", image: "/images/fruits.jpg" },
-    { id: 28, name: "Vegetables", price: 12, rating: 4, category: "Groceries", image: "/images/vegetable.jpg" },
-    { id: 29, name: "Snacks", price: 8, rating: 3, category: "Groceries", image: "/images/snacks.jpg" },
-    { id: 30, name: "Drinks", price: 10, rating: 4, category: "Groceries", image: "/images/drinks.jpg" },
+const products = [
+  { id: 27, name: "Fruits", price: 15, rating: 5, category: "Groceries", image: "/QuickCart/images/fruits.jpg" },
+  { id: 28, name: "Vegetables", price: 12, rating: 4, category: "Groceries", image: "/QuickCart/images/vegetable.jpg" },
+  { id: 29, name: "Snacks", price: 8, rating: 3, category: "Groceries", image: "/QuickCart/images/snacks.jpg" },
+  { id: 30, name: "Drinks", price: 10, rating: 4, category: "Groceries", image: "/QuickCart/images/drinks.jpg" },
+];
 
-  ];
 
   return (
     <div className="category-page">
