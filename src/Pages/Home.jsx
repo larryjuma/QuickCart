@@ -9,7 +9,7 @@ function Home({ addToCart }) {
   const featuredProducts = [
     { id: 101, name: "Wireless Headphones", price: 59.99, image: "/QuickCart/images/headphones.jpg" },
     { id: 102, name: "Smartphone", price: 499.99, image: "/QuickCart/images/smartphone.jpg" },
-    { id: 103, name: "Sports Shoes", price: 89.99, image: "/QuickCart/images/sports shoes.jpg" },
+    { id: 103, name: "Sports Shoes", price: 89.99, image: "/QuickCart/images/sports-shoes.jpg" },
   ];
 
   const handleAddToCart = (product) => {

@@ -5,10 +5,10 @@ import { Link } from "react-router-dom";
 
 function Electronics({ addToCart }) {
   const products = [
-    { id: 27, name: "Fruits", price: 15, rating: 5, category: "Groceries", image: "/QuickCart/images/fruits.jpg" },
-    { id: 28, name: "Vegetables", price: 12, rating: 4, category: "Groceries", image: "/QuickCart/images/vegetable.jpg" },
-    { id: 29, name: "Snacks", price: 8, rating: 3, category: "Groceries", image: "/QuickCart/images/snacks.jpg" },
-    { id: 30, name: "Drinks", price: 10, rating: 4, category: "Groceries", image: "/QuickCart/images/drinks.jpg" },
+    { id: 27, name: "Fruits", price: 15, rating: 5, category: "Groceries", image: "/QuickCart/images/laptop.jpg" },
+    { id: 28, name: "Vegetables", price: 12, rating: 4, category: "Groceries", image: "/QuickCart/images/ps.jpg" },
+    { id: 29, name: "Snacks", price: 8, rating: 3, category: "Groceries", image: "/QuickCart/images/tv.jpg" },
+    { id: 30, name: "Drinks", price: 10, rating: 4, category: "Groceries", image: "/QuickCart/images/headphones.jpg" },
 
   ];
 

@@ -7,7 +7,7 @@ const specialOffers = [
     name: "Wireless Earbuds",
     oldPrice: 5000,
     price: 3500,
-    image: "/QuickCart/images/ear buds.jpg",
+    image: "/QuickCart/images/ear-buds.jpg",
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ const specialOffers = [
     name: "Smartwatch",
     oldPrice: 8000,
     price: 5999,
-    image: "/QuickCart/images/smart watch.jpg",
+    image: "/QuickCart/images/smart-watch.jpg",
   },
   {
     id: 4,
