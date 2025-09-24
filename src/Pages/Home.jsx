@@ -23,16 +23,16 @@ function Home({ addToCart }) {
       <section className="hero">
         <div className="hero-text">
           <h1>Shop Smarter with QuickCart</h1>
-          <p>Discover the best deals on electronics, fashion, groceries, and more.</p>
+          <p>Discover the best deals on electronics, fashion, groceries, and more...</p>
             <button className="hero-btn" onClick={() => navigate("/products")}>
           Start Shopping
         </button>
         </div>
-        <div className="hero-img">
+<div className="hero-img">
+ <img src="/QuickCart/images/hero.jpg" alt="Shopping" />
 
-          <img src="QuickCart/public/images/jon-ly-Xn7gvimQrk8-unsplash.jpg" alt="Shopping" />
+</div>
 
-        </div>
       </section>
 
       {/* Categories */}

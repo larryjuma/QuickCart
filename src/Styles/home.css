@@ -41,12 +41,21 @@
   background: var(--accent);
   color: var(--dark);
 }
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 400px; /* ensure hero has height */
+  padding: 20px;
+}
 
 .hero-img {
   flex: 1;
   display: flex;
   justify-content: center;
+  align-items: center; /* center image vertically */
 }
+
 
 .hero-img img {
   max-width: 100%;
