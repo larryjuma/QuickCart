@@ -61,7 +61,6 @@ function Home({ addToCart }) {
         </div>
       </section>
 
-      {/* Special Offers */}
     {/* Special Offers */}
 <section className="offers">
   <h2>Special Offers</h2>
